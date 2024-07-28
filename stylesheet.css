@@ -1300,6 +1300,16 @@ audio {
         background-color: #466baf;
     }
 
+	@media (max-width: 767px) {
+		.balloons {
+			display: none;
+		}
+
+		.message {
+			margin-top: 100px;
+			display: none;
+		}
+	}
 
 
     /*controlling tablet width*/
